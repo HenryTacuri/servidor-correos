@@ -19,11 +19,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>ec.edu.ups.ppw63</groupId>
-    <artifactId>carros-crud</artifactId>
+    <artifactId>correos</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <packaging>war</packaging>
-    <name>carros-crud</name>
+    <name>correos</name>
     <description>Insert description for your project here.</description>
 
     <properties>
@@ -217,6 +217,11 @@
             <scope>test</scope>
         </dependency>
 
+		<dependency>
+			<groupId>com.resend</groupId>
+			<artifactId>resend-java</artifactId>
+			<version>3.1.0</version>
+		</dependency>
     </dependencies>
 
     <build>
